@@ -1,0 +1,11 @@
+drop database db;
+create database db;
+
+use db;
+
+create table author 
+(
+a_id int, 
+a_name char(100), 
+primary key(a_name)
+);
